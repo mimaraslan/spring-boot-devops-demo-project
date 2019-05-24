@@ -11,7 +11,7 @@ public class JUnitControllerTest {
     public void testHomeController() {
         HomeController homeController = new HomeController();
         String result = homeController.home();
-        assertEquals(result, "Hello World!");
+        assertEquals(result, "Hello World! Lolo");
     }
 
 }
